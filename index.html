@@ -9,6 +9,7 @@ var generateUniqueID=function(){return"v2-"+Date.now()+"-"+(Math.floor(Math.rand
             RProfiler && console.log("inside block");
             RProfiler.addInfo('indicator', 'number', 100);
             RProfiler.addInfo('tracepoint', 'vt', 'no-cache');
+		 RProfiler.addInfo('tracepoint', 'vt', 'gzip');
             RProfiler.addInfo('pageGroup', 'p2');
             RProfiler.addInfo('variation', 'v2');
          }
